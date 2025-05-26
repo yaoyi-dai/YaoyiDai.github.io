@@ -35,15 +35,15 @@
 						</header>
 						<p>Hi there! &#128075; I'm Yaoyi Dai, a PhD candidate in Quantitative and Computational Biology at Baylor College of Medicine in Houston, Texas.<br /> 
 			
-							I'm currently a Graduate Research Assistant in Dr. Wenyi Wang's Lab at MD Anderson Cancer Center, where I focus on integrative deconvolution of genomic and transcriptomic data across multi-ethnic primary triple negative breast cancer (TNBC) patients to predict long-term progression free survival outcomes.<br/>
+							I'm currently a Graduate Research Assistant in Dr. Wenyi Wang's Lab at MD Anderson Cancer Center, where I apply and extend tumor-specific total mRNA expression (TmS) - a deconvolution metric that captures cancer transcriptomic plasticity. My thesis project focuses on using TmS to stratify triple-negative breast cancer (TNBC) patients across multi-ethnic cohorts, revealing population-specific tumor microenvironment dynamics and identifying personalized therapeutic strategies for chemotherapy-resistant patients.<br/>
 							
-							My research journey began with a B.E. in Food Quality and Safety from Southwest University in China, followed by an M.S. in Biostatistics from Washington University in St. Louis School of Medicine. I've gained valuable industry experience as a Summer Intern at Merck Sharp & Dohme LLC, working on integrative multi-omics and drug response characterization.<br />
+							I hold an M.S. in Biostatistics from Washington University in St. Louis and recently completed a summer internship at Merck Sharp & Dohme LLC, working on integrative multi-omics and drug response characterization for KRAS inhibitors.<br />
 							
-							My expertise spans programming in R/R Shiny, Python, and SAS, along with next-generation sequencing analyses including WES/WGS, bulk RNA-seq, scRNA-seq/ATAC-seq, and spatial transcriptomics. I'm passionate about developing computational methods for cancer research and have contributed to several publications in high-impact journals.<br />
+							My expertise includes programming in R/R Shiny, Python, and SAS, along with next-generation sequencing analyses (WES/WGS, bulk RNA-seq, scRNA-seq, scATAC-seq, spatial transcriptomics) and computational method development for cancer research.<br />
 							
 							When I'm not analyzing genomic data, you'll find me staying active with indoor cycling, yoga, Pilates, and HIIT workouts! I also love experimenting in the kitchen with cooking and baking – my favorite way to procrastinate! &#128523;</p>
 							<ul class="actions">
-							<li><a href="#" class="button"> Yaoyi's CV </a></li>
+							<li><a href="#" class="button"> View My CV </a></li>
 						</ul>
 					</section>
 
@@ -73,49 +73,63 @@
 				    <section id="three">
 					    <h2>Publications</h2>
 					    <div class="row">
-						    <article class="col-6 col-12-xsmall work-item">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/TNBC_TmS.png" class="image fit thumb"><img src="images/fulls/TNBC_TmS.png" alt="" /></a>	
+								<h3>Deciphering Transcriptional Activity of the Tumor Microenvironment for Robust Stratification of Chemotherapy Response in Triple-Negative Breast Cancer</h3>
+								<p>Triple-negative breast cancer (TNBC) exhibits heterogeneous treatment responses, yet molecular subtypes based on predefined biological pathways have shown limited prognostic value. We introduce tumor-specific total mRNA expression (TmS), a pathway-agnostic deconvolution metric derived from matched RNA/DNA sequencing data, as an alternative strategy. When applied to data from 575 TNBC patients across Western and East Asian populations, TmS outperformed established subtypes in predicting chemotherapy outcomes, stratifying patients into high-TmS: favorable prognosis, and low-TmS: poor prognosis. All cohorts exhibited increased immunological activity in high-TmS tumors and greater stromal enrichment in low-TmS tumors, as validated through single-cell RNA sequencing and digital pathology. East Asian patients displayed distinctive features, including stronger cell cycle-driven epithelial cells and unique B-cell activities. We identified extracellular matrix (ECM) pathways as potential therapeutic targets for chemotherapy-resistant low-TmS patients. Our findings chart a new map to conduct personalized therapy for TNBC, and provide new insights for developing population-aware therapeutic strategies.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/NRC_review.png" class="image fit thumb"><img src="images/fulls/NRC_review.png" alt="" /></a>	
+								<h3>A guide to transcriptomic deconvolution in cancer</h3>
+								<p>Cancers show vast transcriptional variation in genes and pathways. Cancer tissues are heterogeneous mixtures of tumor, stromal and immune cells, where each component comprises multiple distinct cell types and/or states. Understanding the unique contributions of each cell type is crucial for advancing cancer biology, yet high-throughput expression profiles from tumor tissues only represent combined signals from all diverse cellular sources. Computational deconvolution of these mixed signals has emerged as a powerful approach to dissect both cellular composition and cell-type-specific expression patterns. Here, we provide a comprehensive guide to transcriptome deconvolution, specifically tailored for cancer researchers, presenting a systematic framework for selecting and applying deconvolution methods based on cancer-specific challenges and research objectives. Through detailed examination of nearly 40 deconvolution methods, we demonstrate how different approaches serve distinctive applications in cancer research: from understanding tumor-immune surveillance to identifying cancer subtypes, discovering prognostic biomarkers, and characterizing spatial tumor architecture. We present a practical decision framework considering the unique complexities of tumor tissues, data availability, and method assumptions. By examining the capabilities and limitations of these methods in a cancer context, we highlight emerging trends and future directions, particularly in addressing tumor cell plasticity and dynamic cell states. This guide will empower cancer researchers to effectively utilize deconvolution methods, advancing our understanding of cancer biology and informing clinical decision-making.</p>
+							</article>		
+							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/TmS.png" class="image fit thumb"><img src="images/fulls/TmS.png" alt="" /></a>
 								<h3>Estimation of tumor cell total mRNA expression in 15 cancer types predicts disease progression</h3>
 								<p>Single-cell RNA sequencing studies have suggested that total mRNA content correlates with tumor phenotypes. Technical and analytical challenges, however, have so far impeded at-scale pan-cancer examination of total mRNA content. Here we present a method to quantify tumor-specific total mRNA expression (TmS) from bulk sequencing data, taking into account tumor transcript proportion, purity and ploidy, which are estimated through transcriptomic/genomic deconvolution. We estimate and validate TmS in 6,590 patient tumors across 15 cancer types, identifying significant inter-tumor variability. Across cancers, high TmS is associated with increased risk of disease progression and death. TmS is influenced by cancer-specific patterns of gene alteration and intra-tumor genetic heterogeneity as well as by pan-cancer trends in metabolic dysregulation. Taken together, our results indicate that measuring cell-type-specific total mRNA expression in tumor cells predicts tumor phenotypes and clinical outcomes.</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/AD.png" class="image fit thumb"><img src="images/fulls/AD.png" alt="" /></a>
-								<h3>A landscape of the genetic and cellular heterogeneity in Alzheimer disease</h3>
-								<p>Alzheimer disease (AD) has substantial genetic, molecular, and cellular heterogeneity associated with its etiology. Much of our current understanding of the main AD molecular events associated with the amyloid hypothesis (APP, PSEN1 and PSEN2) and neuroimmune modulation (TREM2 and MS4A) is based on genetic studies including GWAS. However, the functional genes, downstream transcriptional ramifications, and the cell-type-specific effects of many GWAS loci remain poorly understood. Understanding these effects can point us to the cellular processes involved in AD and uncover potential therapeutic targets. We identified cell-specific expression states influenced by AD genetic factors for neurons and glia. Autosomal dominant AD (ADAD) brains exhibited unique transcriptional states in all cell types. TREM2 variant carrier brains were also enriched for specific microglia and oligodendrocyte subpopulations. Carriers of the resilience MS4A variant were enriched for an altered activated-microglia expression state. We mapped AD GWAS genes to their potential functional cell types, and some, including PLCG2 and SORL1, were expressed in a broader range of brain cell types than previously reported.</p>
+								<h3>Single-nucleus RNA-sequencing of autosomal dominant Alzheimer disease and risk variant carriers</h3>
+								<p>Genetic studies of Alzheimer disease (AD) have prioritized variants in genes related to the amyloid cascade, lipid metabolism, and neuroimmune modulation. However, the cell-specific effect of variants in these genes is not fully understood. Here, we perform single-nucleus RNA-sequencing (snRNA-seq) on nearly 300,000 nuclei from the parietal cortex of AD autosomal dominant (APP and PSEN1) and risk-modifying variant (APOE, TREM2 and MS4A) carriers. Within individual cell types, we capture genes commonly dysregulated across variant groups. However, specific transcriptional states are more prevalent within variant carriers. TREM2 oligodendrocytes show a dysregulated autophagy-lysosomal pathway, MS4A microglia have dysregulated complement cascade genes, and APOEε4 inhibitory neurons display signs of ferroptosis. All cell types have enriched states in autosomal dominant carriers. We leverage differential expression and single-nucleus ATAC-seq to map GWAS signals to effector cell types including the NCK2 signal to neurons in addition to the initially proposed microglia. Overall, our results provide insights into the transcriptional diversity resulting from AD genetic architecture and cellular heterogeneity. The data can be explored on the online browser (http://web.hararilab.org/SNARE/).</p>
 							</article>
 						</div>
 				    </section>
 
 				<!-- Four -->
-					<section id="four">
-						<h2>Get In Touch</h2>
-						<h3> For project collaborations or any questions </h3>
-						<div class="row">
-					
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										1400 Pressler St.<br />
-										Houston, TX 77005<br />
-										United States
-									</li>
-									<li>
-										<h3 class="icon brands fa-twitter"><span class="label">Twitter</span></h3>
-										<a href="https://twitter.com/YaoyiD">https://twitter.com/YaoyiD </a>
-									</li>
-									<li>
-										<h3 class="icon brands fa-linkedin"><span class="label">LinkedIn</span></h3>
-										<a href="https://www.linkedin.com/in/yaoyi-dai-200bba182/">https://www.linkedin.com/in/yaoyi-dai-200bba182/ </a>
-									</li>
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="yaoyi.dai@bcm.edu">yaoyi.dai@bcm.edu </a>
-									</li>
-								</ul>
-							</div>
+				 <section id="four">
+					<h2>Get In Touch</h2>
+					<h3> For project collaborations or any questions </h3>
+					<div class="row">
+						
+						<div class="col-4 col-12-small">
+							<ul class="labeled-icons">
+								<li>
+									<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+									7007 Bertner Ave.<br />
+									Houston, TX 77030<br />
+									United States
+								</li>
+								<li>
+									<h3 class="icon brands fa-twitter"><span class="label">Twitter</span></h3>
+									<a href="https://twitter.com/YaoyiD">https://twitter.com/YaoyiD </a>
+								</li>
+								<li>
+									<h3 class="icon brands fa-linkedin"><span class="label">LinkedIn</span></h3>
+									<a href="https://www.linkedin.com/in/yaoyi-dai-200bba182/">https://www.linkedin.com/in/yaoyi-dai-200bba182/ </a>
+								</li>
+								<li>
+									<h3 class="icon brands fa-google"><span class="label">Google Scholar</span></h3>
+									<a href="https://scholar.google.com/citations?user=tTB742QAAAAJ&hl=en">Google Scholar Profile</a>
+								</li>
+								<li>
+									<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+									<a href="mailto:yaoyi.dai@bcm.edu">yaoyi.dai@bcm.edu</a>
+								</li>
+							</ul>
 						</div>
-					</section>
+					</div>
+				</section>
 
 				<!-- Five -->
 				<!--
